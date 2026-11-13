@@ -1,47 +1,47 @@
-# Confiança dos downloads e relatos de segurança
+# Confiança dos downloads e dos acessos
 
 ## Downloads e atualizações
 
-Esta distribuição oferece o instalador oficial para Windows. Ele não possui
-assinatura digital de editor. O hash SHA-256 publicado na mesma Release serve
-para comparar o arquivo baixado com o arquivo publicado; não equivale a uma
-assinatura do editor.
+Use somente a [publicação oficial atual](https://github.com/zDaark333/DarkClean/releases).
+O instalador não tem assinatura digital de editor. O SHA-256 publicado permite
+comparar o arquivo, mas não equivale a uma assinatura de editor.
 
-Desde a 1.0.1, o aplicativo verifica publicações oficiais ao abrir e periodicamente.
-Antes de oferecer uma atualização, verifica a assinatura Ed25519 dos metadados
-`installer-update.json` com a chave pública incorporada ao aplicativo. O download
-deve corresponder ao tamanho e SHA-256 autenticados. Esses dados são conferidos
-novamente antes de abrir o instalador.
+O atualizador verifica a assinatura Ed25519 dos metadados com a chave pública
+incorporada ao aplicativo. Confere tamanho e SHA-256 antes de permitir a instalação,
+que exige confirmação. As chaves privadas permanecem fora dos arquivos distribuídos.
 
-Use os downloads de https://github.com/zDaark333/DarkClean/releases.
-Não desative as proteções do Windows por orientação de páginas ou mensagens que
-aleguem ser necessárias para baixar o DarkClean.
+## Contas online
 
-## Confirmação e proteção das chaves
+Somente o proprietário do painel cria usuários, redefine senhas, define limites
+de computadores e bloqueia acessos. O painel administrativo exige a identidade
+ChatGPT autorizada do proprietário; o instalador não contém credenciais administrativas.
+Não há cadastro público.
 
-O aplicativo pede confirmação para baixar e para instalar. A assinatura de
-metadados não é um certificado Authenticode nem elimina os avisos do Windows.
-Arquivos alterados, assinaturas inválidas e origens diferentes do repositório
-oficial não devem ser instalados pelo atualizador.
+O servidor armazena hashes scrypt das senhas com sal aleatório e segredo privado
+separado. As solicitações têm limite de tentativas. A comunicação exige HTTPS
+com validação do certificado e do nome do servidor.
 
-Chaves privadas, senhas e certificados privados não devem integrar o repositório,
-instaladores, ZIPs ou relatórios públicos.
+O computador guarda apenas uma sessão cifrada pelo Windows DPAPI, vinculada ao
+perfil do Windows. A senha não fica armazenada. O servidor guarda apenas o hash
+do token de sessão. Um identificador aleatório do perfil distingue os computadores;
+o login não utiliza números de série do hardware. O nome do computador é exibido
+ao administrador para reconhecer o acesso.
 
-## Conta local
+A sessão exige confirmação online ao iniciar e a cada minuto. Bloquear a conta,
+revogar sessões ou redefinir a senha invalida o acesso na próxima verificação.
+Se a internet falhar, a interface pausa até confirmar o acesso novamente.
+Operações já iniciadas terminam antes do encerramento seguro.
 
-Desde a 1.1.0, a conta funciona offline e pertence ao perfil do Windows em uso.
-A senha é armazenada como hash PBKDF2-HMAC-SHA256, com 600.000 iterações e sal
-aleatório. O código de recuperação também não é guardado de forma legível.
-Tentativas incorretas repetidas causam uma espera temporária.
+**Recuperar acesso** registra uma solicitação para o proprietário. A resposta não
+confirma publicamente se um usuário existe. O proprietário entrega a nova senha
+diretamente ao usuário. Não há envio automático de mensagens.
 
-Essa conta organiza o acesso à interface do DarkClean; não substitui a segurança
-do Windows nem cifra os backups e demais arquivos do aplicativo. Uma pessoa com
-controle do perfil ou privilégios de administrador pode alterar os arquivos locais.
-Não envie a senha, o código de recuperação ou `conta-local.json` em relatos públicos.
+O controle de entrada não cifra os backups do aplicativo nem substitui a segurança
+do Windows. Não envie senhas, tokens, arquivos de sessão, chaves ou dados pessoais
+em relatos públicos. Retirar releases antigas não revoga executáveis já baixados.
 
-## Relatos de problemas
+## Relatos
 
-As Issues públicas podem ser usadas para falhas comuns, sem dados pessoais.
-Não inclua senhas, chaves, IPs, nomes de usuário locais nem relatórios completos
-sem revisão. Para um problema de segurança com detalhes exploráveis, procure
-primeiro um canal privado disponibilizado pelo [mantenedor](https://github.com/zDaark333).
+Use Issues para falhas comuns sem dados pessoais. Para detalhes de segurança
+exploráveis, procure um canal privado disponibilizado pelo
+[mantenedor](https://github.com/zDaark333).

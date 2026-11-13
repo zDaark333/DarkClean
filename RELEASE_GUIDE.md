@@ -26,7 +26,7 @@ instalação e as verificações do executável. O instalador deve ser enviado p
 Releases, sem adicionar o diretório de código local ao repositório.
 
 O DDU 18.1.6.1 acompanha sua licença MIT e atribuição. O NVCleanstall pessoal,
-as contas locais e seus registros de autenticação não podem integrar os arquivos
+as senhas, sessões e registros de autenticação não podem integrar os arquivos
 enviados. Confira novamente essas exclusões antes de cada publicação.
 
 ## Atualizador
@@ -39,3 +39,15 @@ não será oferecida pelo atualizador. Os hashes de todos os assets ficam em
 O cliente ignora rascunhos e versões iguais ou inferiores à instalada. A instalação
 exige confirmação do usuário e usa o instalador normal do Windows. Nunca publique
 a chave privada ou altere-a entre versões sem planejar a migração de confiança.
+
+## Revisão da mesma publicação 1.1.0
+
+Esta substituição foi autorizada pelo mantenedor. Mantém a numeração e a publicação
+existente; troca apenas os seis arquivos aprovados e a documentação. A versão
+anterior é preservada em backup privado. As demais releases ficam como rascunho,
+sem downloads públicos. A alteração não bloqueia cópias antigas já instaladas.
+
+Não distribua código do servidor, dados de contas, arquivos DPAPI, credenciais
+administrativas, segredos do serviço ou a chave de assinatura. O aplicativo inclui
+apenas o endereço público do serviço e certificados públicos de confiança.
+O mesmo número de versão exige reinstalação manual de quem já usa a 1.1.0 anterior.
