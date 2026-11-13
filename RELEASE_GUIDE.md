@@ -1,41 +1,33 @@
-# DarkClean — Publicação de versões oficiais
+# Publicação do DarkClean
 
-Este repositório público hospeda **somente os releases e os documentos de atualização do DarkClean**. O código-fonte pode continuar em um repositório privado.
+## Distribuição atual
 
-## Formato dos releases
+Este repositório é destinado a binários e documentação. O código-fonte próprio,
+backups, ambientes de desenvolvimento, pesquisas e chaves privadas permanecem fora
+dele. Os arquivos de fonte exigidos por componentes de terceiros conservam suas
+licenças e não abrem o código próprio do aplicativo.
 
-Tags estáveis: `v10.0.0`, `v10.1.0`, `v10.1.1`, seguindo SemVer.
+A 11.2.2 é uma prévia pública com atualização manual. Publique como prerelease,
+com a tag `v11.2.2`, sem substituir o rascunho antigo da 11.0.0.
 
-Para cada atualização **após a instalação inicial V10**, publique juntos:
+## Arquivos desta entrega
 
-- `DarkClean-Package-v10.1.0.zip` — executável Windows e recursos da versão.
-- `manifest.json` — versão, tamanho do arquivo e hash SHA-256.
-- `manifest.sig` — assinatura Ed25519 **sobre os bytes exatos** do manifesto.
+- `DarkClean-Setup-v11.2.2.exe`
+- `SHA256SUMS.txt`
+- `LEIA-ME.txt`
+- `AVISOS-DE-TERCEIROS.txt`
 
-A primeira instalação exige um instalador Windows separado `DarkClean-Setup-v10.0.0.exe`, gerado com Inno Setup e assinado digitalmente antes da distribuição.
+Antes de publicar, confira a versão, os hashes, os avisos que acompanham a
+instalação e as verificações do executável. O instalador deve ser enviado para
+Releases, sem adicionar o diretório de código local ao repositório.
 
-## Processo seguro de publicação
+## Atualizador
 
-1. Compile os três executáveis da V10 em Windows: app, launcher e atualizador.
-2. Assine os executáveis com certificado de publicação de código.
-3. Gere o instalador inicial com Inno Setup e assine o instalador.
-4. Teste em Windows 10/11, inclusive o LibreHardwareMonitor e a recuperação.
-5. Para cada atualização, crie o pacote ZIP **depois** de assinar o `DarkClean.exe`.
-6. Gere `manifest.json` e `manifest.sig` com a chave de assinatura local do publicador.
-7. Confira nomes, tag, SHA-256, arquivo e assinatura; publique um Release estável apenas após testes.
-8. Ative Immutable Releases nas configurações do repositório quando disponível.
+Não reutilize a receita antiga de pacote gerenciado para esta distribuição.
+O instalador atual usa `DarkCleanTeste`, enquanto o atualizador gerenciado espera
+launcher, helper e diretórios de versão próprios. Um EXE anexado à Release não
+habilita automaticamente esse mecanismo.
 
-### Verificação das versões
-
-O aplicativo consulta:
-`https://api.github.com/repos/zDaark333/DarkClean-Updates/releases/latest`
-
-A publicação no GitHub, sozinha, **não autoriza uma instalação**. O atualizador exige chave pública incorporada ao executável, assinatura Ed25519 do manifesto, hash SHA-256 e certificado Authenticode do editor correspondente ao esperado.
-
-### Atenção
-
-- Não envie arquivos `.pem`, senhas, tokens, nem outras chaves privadas.
-- Nunca publique executáveis de teste como release oficial.
-- Modificações no próprio launcher/atualizador exigem um **instalador completo** assinado.
-- A V9 e anteriores não possuem o lançador gerenciado e necessitam instalar a V10 uma vez.
-- Atualmente o repositório pode não conter nenhum release; isso é normal durante a preparação.
+Uma futura entrega gerenciada exigirá preparação e validação próprias, incluindo
+assinatura Ed25519, migração, manifesto, pacote compatível e recuperação. Nunca
+publique chaves privadas ou senhas para tentar habilitá-la.

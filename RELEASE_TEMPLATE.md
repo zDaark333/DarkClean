@@ -1,32 +1,23 @@
-# DarkClean vX.Y.Z
+# DarkClean <versão> — prévia pública
 
-> Modelo de descrição. **Não publicar enquanto os binários e as assinaturas não estiverem prontos.**
+Instalador para Windows de 64 bits. Instalação e atualização manuais.
 
-## Novidades
+## Alterações
 
-- [Descrever mudanças relevantes]
+- Descrever apenas mudanças efetivamente incluídas e verificadas nesta versão.
 
-## Instalação inicial
+## Instalação
 
-Baixe o instalador assinado `DarkClean-Setup-vX.Y.Z.exe` quando disponível.
+Feche o DarkClean, baixe o instalador desta Release e execute-o. A instalação
+requer administrador. Consulte `LEIA-ME.txt` e os avisos de terceiros incluídos.
 
-## Atualização pela V10
+## Verificação
 
-O DarkClean verifica novas versões em Configurações → Atualizações e só instala pacotes assinados, após confirmação.
+Compare o SHA-256 do instalador com `SHA256SUMS.txt`. Informe explicitamente
+se o instalador tem assinatura digital de editor. Um hash não substitui essa
+assinatura.
 
-## Arquivos de atualização
+## Limites
 
-- `DarkClean-Package-vX.Y.Z.zip`
-- `manifest.json`
-- `manifest.sig`
-
-## Testes necessários
-
-- [ ] Inicialização em Windows 10 e 11
-- [ ] Telemetria CPU/GPU e LibreHardwareMonitor
-- [ ] Idiomas PT/EN/ES
-- [ ] Teste de assinatura inválida
-- [ ] Download interrompido / rollback
-- [ ] Preservação de configurações
-
-**Nunca anexar chaves privadas, tokens ou executáveis de origem desconhecida.**
+Informe recursos indisponíveis e limitações verificadas. Não prometa atualização
+automática ou ganhos de desempenho que não foram validados.

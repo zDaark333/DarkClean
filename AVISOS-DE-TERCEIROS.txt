@@ -1,0 +1,35 @@
+DARKCLEAN — AVISOS DE TERCEIROS
+Preparado em 13/11/2026
+
+O DarkClean utiliza componentes de terceiros que conservam suas licenças e direitos. O código próprio do aplicativo permanece sob seus termos próprios. As licenças de terceiros não são substituídas pelos termos do DarkClean.
+
+O instalador acompanha a pasta AVISOS-TERCEIROS com os textos integrais, atribuições, versões, links de fontes e fontes que acompanham componentes específicos. Consulte o README.md dessa pasta.
+
+Componentes principais:
+- Python 3.12.10 — Python Software Foundation e demais titulares; textos originais da distribuição Windows.
+- Qt / PySide6 / Shiboken 6.12.0 — The Qt Company Ltd. e contribuidores; LGPL 3.0 e alternativas declaradas pelos módulos. Cópias LGPL/GPL e atribuições específicas em AVISOS-TERCEIROS/qt.
+- Pillow 13.0.0 — Secret Labs AB, Fredrik Lundh, Jeffrey A. Clark e contribuidores; MIT-CMU e avisos das bibliotecas incorporadas.
+- psutil 7.2.2 — BSD-3-Clause.
+- NVIDIA NVML Python bindings 13.615.71 — NVIDIA Corporation, BSD.
+- pythonnet 3.2.1 / clr_loader 0.3.1 — MIT.
+- cryptography 50.0.2 — Apache-2.0 ou BSD-3-Clause; dependências Rust conservam seus termos.
+- OpenSSL 3.0.16 e 4.0.3 — Apache-2.0.
+- CFFI 2.1.1 / pycparser 3.12 — MIT-0 / BSD-3-Clause.
+- LibreHardwareMonitor 0.9.6 e bibliotecas de hardware — MPL 2.0, MIT, BSD e Apache, conforme cada componente em AVISOS-TERCEIROS/hardware.
+- PawnIO 2.2.0 — GPL 2.0 ou posterior, com exceção de interface do autor; fontes PawnIO/PawnPP incluídas.
+- PawnIO.Modules 0.2.2 — LGPL 2.1; fontes correspondentes incluídas.
+- NVIDIA Profile Inspector 3.0.2.1 — Orbmu2k, MIT.
+- PyInstaller 6.22.3 — licença com exceção para distribuir aplicações sob outros termos.
+
+Este produto utiliza FreeType. Os respectivos avisos estão na pasta AVISOS-TERCEIROS.
+
+Fontes Qt/PySide6/Shiboken:
+https://github.com/qt/qtbase/tree/v6.12.0
+https://github.com/qt/qtsvg/tree/v6.12.0
+https://github.com/qt/qtimageformats/tree/v6.12.0
+https://github.com/pyside/pyside-setup/tree/v6.12.0
+
+Fontes dos componentes MPL e demais componentes: links e commits em AVISOS-TERCEIROS/hardware/README.md e nos índices correspondentes. As fontes próprias do DarkClean não estão incluídas.
+
+Os direitos de modificar as bibliotecas de terceiros e de realizar engenharia reversa para depurar essas modificações são preservados nos termos das licenças aplicáveis.
+
