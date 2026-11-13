@@ -1,26 +1,28 @@
 # Confiança dos downloads e relatos de segurança
 
-## Prévia pública 1.0.0
+## Downloads e atualizações
 
-Esta distribuição oferece um instalador manual para Windows. Ele não possui
+Esta distribuição oferece o instalador oficial para Windows. Ele não possui
 assinatura digital de editor. O hash SHA-256 publicado na mesma Release serve
 para comparar o arquivo baixado com o arquivo publicado; não equivale a uma
 assinatura do editor.
 
-O atualizador do aplicativo está desabilitado nesta prévia. Não há `manifest.json`,
-`manifest.sig` ou ZIP de atualização automática para esta entrega. Não trate
-arquivos com esses nomes enviados por terceiros como parte desta Release.
+Desde a 1.0.1, o aplicativo verifica publicações oficiais ao abrir e periodicamente.
+Antes de oferecer uma atualização, verifica a assinatura Ed25519 dos metadados
+`installer-update.json` com a chave pública incorporada ao aplicativo. O download
+deve corresponder ao tamanho e SHA-256 autenticados. Esses dados são conferidos
+novamente antes de abrir o instalador.
 
 Use os downloads de https://github.com/zDaark333/DarkClean/releases.
 Não desative as proteções do Windows por orientação de páginas ou mensagens que
 aleguem ser necessárias para baixar o DarkClean.
 
-## Futuras atualizações gerenciadas
+## Confirmação e proteção das chaves
 
-O mecanismo gerenciado só deverá ser divulgado após gerar e testar o layout de
-instalação correspondente, o manifesto assinado com Ed25519, a verificação de
-tamanho e SHA-256 e a recuperação da versão anterior. A disponibilidade desse
-código no projeto local não significa que ele esteja ativo na prévia atual.
+O aplicativo pede confirmação para baixar e para instalar. A assinatura de
+metadados não é um certificado Authenticode nem elimina os avisos do Windows.
+Arquivos alterados, assinaturas inválidas e origens diferentes do repositório
+oficial não devem ser instalados pelo atualizador.
 
 Chaves privadas, senhas e certificados privados não devem integrar o repositório,
 instaladores, ZIPs ou relatórios públicos.

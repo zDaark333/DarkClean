@@ -1,6 +1,6 @@
 # DarkClean <versão> — prévia pública
 
-Instalador para Windows de 64 bits. Instalação e atualização manuais.
+Instalador para Windows de 64 bits. Atualização pelo aplicativo com confirmação.
 
 ## Alterações
 
@@ -19,5 +19,6 @@ assinatura.
 
 ## Limites
 
-Informe recursos indisponíveis e limitações verificadas. Não prometa atualização
-automática ou ganhos de desempenho que não foram validados.
+Informe recursos indisponíveis e limitações verificadas. A verificação é automática
+enquanto o aplicativo estiver rodando; baixar e instalar exigem confirmação.
+Não prometa ganhos de desempenho que não foram validados.

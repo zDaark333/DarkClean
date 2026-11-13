@@ -6,15 +6,13 @@ o código-fonte próprio do DarkClean não é publicado aqui.
 
 ## Download
 
-**1.0.0 — primeira versão da numeração pública, com instalação e atualização manuais.**
+**1.0.1 — DarkClean com aviso automático de atualizações.**
 
-- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.0.0/DarkClean-Setup-v1.0.0.exe)
-- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.0.0)
+- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.0.1/DarkClean-Setup-v1.0.1.exe)
+- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.0.1)
 - [Histórico das versões](CHANGELOG.md)
 
-A sequência pública começa em **1.0.0**. Correções poderão avançar para 1.0.1,
-1.0.2 e seguintes; novos conjuntos de recursos poderão avançar para 1.1.0.
-Esta distribuição continua identificada como prévia pública.
+A sequência pública começou em 1.0.0 e continua com 1.0.1, 1.0.2 e seguintes.
 
 ## Instalação
 
@@ -24,9 +22,20 @@ Esta distribuição continua identificada como prévia pública.
    permissão de administrador.
 4. Escolha os atalhos e os componentes opcionais apresentados pelo instalador.
 
-Esta prévia mantém a pasta de instalação `DarkCleanTeste` e pode aparecer como
-**DarkClean (teste)** nos atalhos. O atualizador dentro do aplicativo está
-desabilitado nesta distribuição; novas versões são instaladas manualmente.
+O aplicativo, o executável e os atalhos usam o nome **DarkClean**. O instalador
+reconhece a instalação anterior e mantém as preferências do usuário.
+
+## Atualizações
+
+Nas Configurações, mantenha **Verificar atualizações automaticamente** marcado.
+O DarkClean consulta novas versões ao abrir e periodicamente enquanto estiver
+rodando. Ao encontrar uma versão nova, pergunta se você deseja baixar; depois
+de conferir o arquivo, pede confirmação antes de abrir o instalador. Nada é
+instalado silenciosamente. Você também pode usar **Verificar atualizações**.
+
+**Quem usa a 1.0.0 precisa instalar a 1.0.1 manualmente uma vez**, pois a versão
+anterior não tinha a verificação ativa. Depois disso, os próximos avisos aparecem
+no próprio aplicativo. O DarkClean precisa estar aberto ou rodando na bandeja.
 
 ## Recursos
 
@@ -49,6 +58,9 @@ As ferramentas NVIDIA próprias do DarkClean e o Profile Inspector continuam no 
 O instalador não possui assinatura digital de editor. O arquivo `SHA256SUMS.txt`
 da Release permite conferir a integridade do download. Ele não substitui uma
 assinatura digital nem deve ser usado como instrução para desativar proteções do Windows.
+
+As atualizações pelo aplicativo também exigem metadados assinados pelo publicador
+e conferência de tamanho e SHA-256 antes de permitir a instalação.
 
 Os componentes de terceiros mantêm suas próprias licenças e avisos, acompanhados
 na pasta `AVISOS-TERCEIROS` da instalação. Fontes de terceiros distribuídos
