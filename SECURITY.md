@@ -45,3 +45,10 @@ em relatos públicos. Retirar releases antigas não revoga executáveis já baix
 Use Issues para falhas comuns sem dados pessoais. Para detalhes de segurança
 exploráveis, procure um canal privado disponibilizado pelo
 [mantenedor](https://github.com/zDaark333).
+
+## Ferramentas de drivers
+
+DDU e NVCleanstall são executáveis originais acompanhados de créditos e procedência.
+O DarkClean compara o SHA-256 antes de abri-los e não usa opções de remoção ou
+instalação silenciosa. As alterações são escolhidas na própria ferramenta.
+O backup de perfis NVIDIA não restaura drivers removidos.

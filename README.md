@@ -6,84 +6,82 @@ o código-fonte próprio do DarkClean permanece fechado.
 
 ## Download atual
 
-**1.1.0 — tema roxo, logo DC e acesso online com sessão lembrada.**
+**1.1.1 — NVCleanstall incluído, visual roxo mais consistente e cabeçalho ajustado.**
 
-- [Baixar para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.0/DarkClean-Setup-v1.1.0.exe)
-- [Publicação atual e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.0)
+- [Baixar para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.1/DarkClean-Setup-v1.1.1.exe)
+- [Publicação atual e verificação dos arquivos](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.1)
 - [Alterações](CHANGELOG.md)
 
-Somente a publicação atual fica disponível para download. Esta revisão substitui
-os arquivos da própria 1.1.0. **Quem já instalou a 1.1.0 anterior deve baixar e
-reinstalar manualmente**, pois a numeração permanece igual.
+Somente a publicação atual fica disponível para download público. As fontes próprias
+e os dados de autenticação não são publicados.
 
 ## Instalação e entrada
 
 1. Use Windows 10 versão 1809 ou posterior, ou Windows 11, de 64 bits.
-2. Feche o DarkClean, baixe o instalador acima e execute-o como administrador.
+2. Feche o DarkClean, baixe o instalador e execute-o como administrador.
 3. Entre com o usuário e a senha fornecidos pelo administrador do DarkClean.
 
-O aplicativo preserva as preferências da instalação anterior. Não há cadastro
-público: somente o proprietário cria os acessos. A tela de entrada oferece
-**usuário, senha, Entrar e Recuperar acesso**.
+O instalador reconhece a instalação anterior e preserva as preferências.
+Somente o proprietário cria os acessos. A tela oferece usuário, senha, Entrar e
+Recuperar acesso; não há cadastro público.
 
-Depois da primeira entrada, a sessão é lembrada neste perfil do Windows. A senha
-não fica salva. Ao abrir novamente, o aplicativo confirma a sessão online sem
-pedir a senha. A sessão expira após 90 dias sem uso, ao sair da conta, quando o
-administrador redefine a senha ou revoga o acesso.
+Depois da primeira entrada, a sessão é lembrada neste perfil do Windows, sem
+salvar a senha. O aplicativo confirma o acesso online ao iniciar e a cada minuto.
+Se a conexão falhar, a interface pausa e permite reconectar mantendo a sessão.
+O bloqueio remoto passa a valer na próxima verificação. A sessão expira após
+90 dias sem uso, ao sair da conta, redefinir a senha ou revogar o acesso.
 
-É necessária internet para entrar e confirmar o acesso durante o uso. Se a conexão
-falhar, o aplicativo pausa e permite tentar novamente; a sessão continua salva.
-Um bloqueio remoto é aplicado na próxima verificação, feita a cada minuto.
+Recuperar acesso envia uma solicitação ao administrador, que define e entrega
+a nova senha diretamente. Não há envio automático por e-mail.
 
-**Recuperar acesso** envia uma solicitação ao administrador, que define uma nova
-senha e a entrega diretamente ao usuário. Não há envio automático por e-mail.
-Não publique suas credenciais em Issues ou mensagens públicas.
+## Ferramentas NVIDIA
 
-## Recursos
+**NVCleanstall 1.19.0 — TechPowerUp:** agora acompanha o instalador. Use
+**Abrir NVCleanstall**, sem precisar baixar nem selecionar outro arquivo.
+O DarkClean verifica a integridade e abre a ferramenta original em sua própria
+janela. O programa foi preservado sem modificações, com créditos e procedência.
+O publicador do DarkClean confirmou possuir autorização da TechPowerUp para redistribuí-lo.
+[Página oficial](https://www.techpowerup.com/download/techpowerup-nvcleanstall/).
 
-- Limpeza com escolha de categorias e confirmação das ações; correção da lixeira.
+**DDU portátil 18.1.6.1 — Wagnardsoft / Ghislain Harvey (Wagnard):** incluso com
+licença MIT e créditos. Abrir DDU verifica os arquivos e abre a ferramenta original.
+
+Abrir essas ferramentas não inicia remoção ou instalação de drivers automaticamente.
+Você escolhe as operações nas próprias ferramentas. O backup de perfis NVIDIA do
+DarkClean não restaura drivers removidos.
+
+O Full NVIDIA por jogo, seus backups de restauração e o NVIDIA Profile Inspector
+continuam disponíveis.
+
+## Recursos preservados
+
+- Limpeza com categorias e confirmação; consulta da lixeira corrigida.
 - Informações de hardware, sensores e diagnóstico.
-- Configurações de Windows, energia, rede e jogos.
-- Full NVIDIA por jogo, backups de restauração e Profile Inspector.
-- Mitigações de CPU na área de Otimização.
-- Tema roxo, logo com D e C, cartões renovados e rolagem que preserva a posição.
-- DDU portátil e abertura de uma cópia pessoal verificada do NVCleanstall.
+- Ajustes de Windows, energia, rede e jogos.
+- Mitigações de CPU acessíveis na área de Otimização.
+- Tema roxo, logo DC, cartões e controles com cores mais consistentes.
+- Cabeçalho mais legível em notebooks e posição de rolagem preservada.
+- Contas online do proprietário, sessão lembrada e bloqueio remoto.
 
-A disponibilidade depende do Windows, do hardware e dos drivers. Consulte o efeito
-e a restauração de cada opção antes de aplicar. Não há promessa de ganho universal
-de FPS ou redução de latência.
+A disponibilidade depende do Windows, do hardware e dos drivers. Leia o efeito e
+a restauração de cada ajuste. Não há promessa de ganho universal de desempenho.
 
 ## Atualizações
 
-Mantenha **Verificar atualizações automaticamente** marcado em Configurações.
-O DarkClean consulta novas versões ao abrir e periodicamente enquanto estiver
-rodando. Baixar e instalar exigem confirmação. Também é possível usar
-**Verificar atualizações**. A verificação considera apenas versões superiores;
-por isso a substituição desta 1.1.0 exige reinstalação manual.
+Quem usa a 1.1.0 pode receber a 1.1.1 pelo aplicativo. Mantenha
+**Verificar atualizações automaticamente** marcado em Configurações, ou use
+**Verificar atualizações**. O DarkClean precisa estar aberto e conectado.
+O download e a instalação exigem confirmação. O atualizador confere metadados
+assinados, tamanho e SHA-256 antes de abrir o instalador.
 
-Instaladores antigos autenticados são removidos do cache quando podem ser
-descartados com segurança. Downloads futuros e arquivos desconhecidos são preservados.
-Retirar publicações antigas não bloqueia cópias já baixadas anteriormente.
+O instalador não possui assinatura digital de editor. Compare os arquivos com
+`SHA256SUMS.txt`. As licenças e atribuições dos componentes acompanham a instalação
+em `AVISOS-TERCEIROS`. Consulte [SECURITY.md](SECURITY.md) e os
+[avisos de terceiros](AVISOS-DE-TERCEIROS.txt).
 
-## Ferramentas e distribuição
-
-O DDU portátil **18.1.6.1**, de Wagnardsoft / Ghislain Harvey (Wagnard), acompanha
-o pacote com licença MIT e créditos. **Abrir DDU** verifica a integridade e abre
-a ferramenta em sua própria janela, sem remover drivers automaticamente.
-
-O NVCleanstall não é redistribuído. Baixe a versão **1.19.0** pelo
-[site oficial da TechPowerUp](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
-e use **Selecionar arquivo** em Ferramentas NVIDIA. O DarkClean verifica a cópia
-original antes de abri-la. O backup de perfis não restaura drivers removidos.
-
-O instalador não possui assinatura digital de editor. Compare seu hash com
-`SHA256SUMS.txt`. As atualizações pelo aplicativo exigem metadados assinados
-e conferência de tamanho e SHA-256 antes de permitir a instalação.
-
-Os componentes de terceiros conservam suas licenças na pasta `AVISOS-TERCEIROS`.
-Consulte o [resumo dos avisos](AVISOS-DE-TERCEIROS.txt) e [SECURITY.md](SECURITY.md).
+Ocultar publicações antigas não desativa cópias já baixadas.
 
 ## Problemas e sugestões
 
-Abra uma [Issue](https://github.com/zDaark333/DarkClean/issues) com a versão,
-o Windows e os passos para reproduzir. Remova dados pessoais de capturas e relatórios.
+Abra uma [Issue](https://github.com/zDaark333/DarkClean/issues) com a versão, o
+Windows e os passos para reproduzir. Remova senhas, tokens e dados pessoais.

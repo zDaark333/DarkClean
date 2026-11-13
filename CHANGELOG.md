@@ -1,18 +1,21 @@
 # Alterações do DarkClean
 
-## 1.1.0 — publicação atual revisada
+## 1.1.1
 
-- Restaura o tema roxo e melhora a logo com as letras D e C.
-- Simplifica a entrada para usuário, senha e opção de recuperar acesso.
-- Adota usuários criados pelo proprietário, com bloqueio remoto e redefinição de senha.
-- Mantém a sessão conectada neste perfil do Windows, sem salvar a senha.
-- Confirma o acesso online ao abrir e a cada minuto durante o uso.
-- Preserva a posição da rolagem em todas as páginas verificadas.
-- Corrige a consulta da lixeira e mantém a limpeza após confirmação.
-- Inclui DDU portátil 18.1.6.1 com licença MIT.
-- Abre uma cópia pessoal verificada do NVCleanstall 1.19.0.
-- Preserva Full NVIDIA por jogo, restauração, mitigações e avisos de atualização.
+- Inclui o NVCleanstall 1.19.0 original, de TechPowerUp, com integridade e créditos.
+- Permite abri-lo diretamente, sem selecionar uma cópia pessoal.
+- Mantém a execução explícita em janela própria, sem instalar drivers automaticamente.
+- Uniformiza as superfícies e controles das páginas de ferramentas no tema roxo.
+- Simplifica o cabeçalho e ajusta a busca e as ações em janelas menores.
+- Mantém a logo DC, o DDU, o Full NVIDIA, as mitigações e a lixeira corrigida.
+- Preserva login online, sessão lembrada, bloqueio remoto e rolagem.
+- Atualiza a identificação do cliente para acompanhar a versão do aplicativo.
+- Disponibiliza atualização verificada para quem usa a 1.1.0.
 
-Esta revisão substitui os arquivos da própria publicação 1.1.0. A reinstalação é
-manual para quem já usa a 1.1.0 anterior. As publicações antigas foram retiradas
-do download público; cópias já baixadas continuam existindo.
+## Recursos da 1.1.0 mantidos nesta entrega
+
+Tema roxo e logo DC; entrada com usuário, senha e recuperação; contas criadas
+pelo proprietário com bloqueio remoto; sessão protegida pelo Windows sem guardar
+senha; lixeira corrigida; DDU portátil; Full NVIDIA, backups e mitigações.
+
+Apenas a publicação atual fica disponível para download público.
