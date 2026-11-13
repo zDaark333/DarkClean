@@ -6,13 +6,13 @@ o código-fonte próprio do DarkClean não é publicado aqui.
 
 ## Download
 
-**1.0.2 — aviso de atualizações e limpeza do cache de instaladores antigos.**
+**1.1.0 — conta local, nova interface, logo renovado e correção da lixeira.**
 
-- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.0.2/DarkClean-Setup-v1.0.2.exe)
-- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.0.2)
+- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.0/DarkClean-Setup-v1.1.0.exe)
+- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.0)
 - [Histórico das versões](CHANGELOG.md)
 
-A sequência pública começou em 1.0.0 e continua com 1.0.1, 1.0.2 e seguintes.
+A sequência pública começou em 1.0.0. Esta atualização de recursos avança para 1.1.0.
 
 ## Instalação
 
@@ -24,6 +24,16 @@ A sequência pública começou em 1.0.0 e continua com 1.0.1, 1.0.2 e seguintes.
 
 O aplicativo, o executável e os atalhos usam o nome **DarkClean**. O instalador
 reconhece a instalação anterior e mantém as preferências do usuário.
+
+## Conta local
+
+No primeiro acesso, crie seu usuário e uma senha de pelo menos 10 caracteres.
+Guarde o código de recuperação exibido: ele permite redefinir a senha sem internet.
+Nos próximos acessos, entre com essa conta. A troca de senha fica em Configurações.
+
+A conta pertence ao perfil atual do Windows e não sincroniza entre computadores.
+Não é uma conta Microsoft ou uma assinatura online. O monitoramento e a consulta
+de atualizações começam depois de entrar no aplicativo.
 
 ## Atualizações
 
@@ -48,6 +58,8 @@ desconhecidos são preservados.
 - Configurações de Windows, energia, rede e jogos.
 - Ferramentas NVIDIA, incluindo perfil por jogo e restauração correspondente.
 - Mitigações de CPU disponíveis na área de Otimização.
+- Conta local com cadastro, entrada, troca de senha e recuperação offline.
+- Nova identidade visual, cartões renovados e barras de rolagem mais fáceis de usar.
 
 A disponibilidade depende do Windows, do hardware e dos drivers. Consulte o efeito
 e a restauração de cada opção antes de aplicar. Não há promessa de ganho universal
@@ -55,9 +67,17 @@ de FPS ou redução de latência.
 
 ## Distribuição
 
-O pacote público não inclui os instaladores DDU e NVCleanstall. Seus botões abrem
-as páginas oficiais para que o usuário escolha o download diretamente do fornecedor.
-As ferramentas NVIDIA próprias do DarkClean e o Profile Inspector continuam no pacote.
+O DDU portátil **18.1.6.1**, de Wagnardsoft / Ghislain Harvey (Wagnard), acompanha
+o pacote com sua licença MIT e créditos. **Abrir DDU** verifica a integridade e
+abre a ferramenta em sua própria janela, sem iniciar uma remoção automaticamente.
+
+O NVCleanstall não é redistribuído no instalador. Baixe a versão **1.19.0** pelo
+[site oficial da TechPowerUp](https://www.techpowerup.com/download/techpowerup-nvcleanstall/)
+e use **Selecionar arquivo** na página Ferramentas NVIDIA. O DarkClean verifica
+a cópia original antes de abri-la. As operações de drivers são escolhidas nas
+próprias ferramentas. O backup de perfis do DarkClean não restaura drivers removidos.
+
+As funções NVIDIA próprias do DarkClean e o Profile Inspector continuam no pacote.
 
 O instalador não possui assinatura digital de editor. O arquivo `SHA256SUMS.txt`
 da Release permite conferir a integridade do download. Ele não substitui uma

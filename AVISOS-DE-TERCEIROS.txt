@@ -19,6 +19,7 @@ Componentes principais:
 - PawnIO 2.2.0 — GPL 2.0 ou posterior, com exceção de interface do autor; fontes PawnIO/PawnPP incluídas.
 - PawnIO.Modules 0.2.2 — LGPL 2.1; fontes correspondentes incluídas.
 - NVIDIA Profile Inspector 3.0.2.1 — Orbmu2k, MIT.
+- Display Driver Uninstaller (DDU) 18.1.6.1 — Wagnardsoft / Ghislain Harvey (Wagnard), MIT; licença integral, créditos e procedência em AVISOS-TERCEIROS/DDU.
 - PyInstaller 6.22.3 — licença com exceção para distribuir aplicações sob outros termos.
 
 Este produto utiliza FreeType. Os respectivos avisos estão na pasta AVISOS-TERCEIROS.

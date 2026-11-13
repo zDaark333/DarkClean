@@ -27,7 +27,19 @@ oficial não devem ser instalados pelo atualizador.
 Chaves privadas, senhas e certificados privados não devem integrar o repositório,
 instaladores, ZIPs ou relatórios públicos.
 
-## Relatos
+## Conta local
+
+Desde a 1.1.0, a conta funciona offline e pertence ao perfil do Windows em uso.
+A senha é armazenada como hash PBKDF2-HMAC-SHA256, com 600.000 iterações e sal
+aleatório. O código de recuperação também não é guardado de forma legível.
+Tentativas incorretas repetidas causam uma espera temporária.
+
+Essa conta organiza o acesso à interface do DarkClean; não substitui a segurança
+do Windows nem cifra os backups e demais arquivos do aplicativo. Uma pessoa com
+controle do perfil ou privilégios de administrador pode alterar os arquivos locais.
+Não envie a senha, o código de recuperação ou `conta-local.json` em relatos públicos.
+
+## Relatos de problemas
 
 As Issues públicas podem ser usadas para falhas comuns, sem dados pessoais.
 Não inclua senhas, chaves, IPs, nomes de usuário locais nem relatórios completos

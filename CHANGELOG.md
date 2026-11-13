@@ -1,5 +1,21 @@
 # Histórico do DarkClean
 
+## 1.1.0
+
+- Adiciona conta local por perfil do Windows, com cadastro, entrada, troca de senha
+  e recuperação offline por código. As senhas não são armazenadas em texto legível.
+- Renova logo, cores, cabeçalhos, cartões e visual das páginas.
+- Melhora o tamanho e o contraste das barras de rolagem, mantendo a posição durante
+  atualizações e ao voltar às páginas.
+- Corrige a estrutura enviada à consulta de lixeira do Windows, que retornava
+  parâmetro inválido. Uma falha na medição também deixa de impedir a limpeza confirmada.
+- Inclui DDU portátil 18.1.6.1 com licença MIT e atribuição; o botão abre a ferramenta
+  original sem iniciar remoção automática de drivers.
+- Integra abertura de uma cópia pessoal verificada do NVCleanstall 1.19.0, com
+  seleção de arquivo. O executável NVCleanstall não acompanha o instalador público.
+- Preserva Full NVIDIA por jogo, seus backups de restauração e as mitigações de CPU.
+- Mantém os avisos de atualização e a instalação somente após confirmação.
+
 ## 1.0.2
 
 - Mantém o botão de verificação utilizável quando uma consulta é recusada porque
