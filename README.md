@@ -6,10 +6,10 @@ o código-fonte próprio do DarkClean não é publicado aqui.
 
 ## Download
 
-**1.0.1 — DarkClean com aviso automático de atualizações.**
+**1.0.2 — aviso de atualizações e limpeza do cache de instaladores antigos.**
 
-- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.0.1/DarkClean-Setup-v1.0.1.exe)
-- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.0.1)
+- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.0.2/DarkClean-Setup-v1.0.2.exe)
+- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.0.2)
 - [Histórico das versões](CHANGELOG.md)
 
 A sequência pública começou em 1.0.0 e continua com 1.0.1, 1.0.2 e seguintes.
@@ -33,9 +33,13 @@ rodando. Ao encontrar uma versão nova, pergunta se você deseja baixar; depois
 de conferir o arquivo, pede confirmação antes de abrir o instalador. Nada é
 instalado silenciosamente. Você também pode usar **Verificar atualizações**.
 
-**Quem usa a 1.0.0 precisa instalar a 1.0.1 manualmente uma vez**, pois a versão
+**Quem usa a 1.0.0 precisa instalar a versão mais recente manualmente uma vez**, pois a versão
 anterior não tinha a verificação ativa. Depois disso, os próximos avisos aparecem
 no próprio aplicativo. O DarkClean precisa estar aberto ou rodando na bandeja.
+
+Instaladores de versões já instaladas são removidos do cache local quando podem
+ser descartados com segurança. Downloads de versões futuras e arquivos
+desconhecidos são preservados.
 
 ## Recursos
 

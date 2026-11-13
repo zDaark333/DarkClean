@@ -1,5 +1,14 @@
 # Histórico do DarkClean
 
+## 1.0.2
+
+- Mantém o botão de verificação utilizável quando uma consulta é recusada porque
+  outra operação de atualização está em andamento.
+- Preserva a atualização já preparada quando a nova consulta não pode começar.
+- Descarta instaladores antigos autenticados do cache após a versão correspondente
+  estar instalada, sem remover downloads futuros nem arquivos desconhecidos.
+- Adia a limpeza de um instalador ainda em uso pelo Windows e tenta novamente depois.
+
 ## 1.0.1
 
 - Ativa a verificação ao abrir o aplicativo e periodicamente em segundo plano.

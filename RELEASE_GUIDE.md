@@ -7,12 +7,12 @@ backups, ambientes de desenvolvimento, pesquisas e chaves privadas permanecem fo
 dele. Os arquivos de fonte exigidos por componentes de terceiros conservam suas
 licenças e não abrem o código próprio do aplicativo.
 
-A numeração pública começou em 1.0.0. A versão atual é a 1.0.1 e as próximas
-correções seguirão 1.0.2 e seguintes.
+A numeração pública começou em 1.0.0. A versão atual é a 1.0.2 e as próximas
+correções seguirão 1.0.3 e seguintes.
 
 ## Arquivos desta entrega
 
-- `DarkClean-Setup-v1.0.1.exe`
+- `DarkClean-Setup-v1.0.2.exe`
 - `SHA256SUMS.txt`
 - `LEIA-ME.txt`
 - `AVISOS-DE-TERCEIROS.txt`
