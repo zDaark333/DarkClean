@@ -1,6 +1,6 @@
 # Confiança dos downloads e relatos de segurança
 
-## Prévia pública 11.2.2
+## Prévia pública 1.0.0
 
 Esta distribuição oferece um instalador manual para Windows. Ele não possui
 assinatura digital de editor. O hash SHA-256 publicado na mesma Release serve
@@ -11,7 +11,7 @@ O atualizador do aplicativo está desabilitado nesta prévia. Não há `manifest
 `manifest.sig` ou ZIP de atualização automática para esta entrega. Não trate
 arquivos com esses nomes enviados por terceiros como parte desta Release.
 
-Use os downloads de https://github.com/zDaark333/DarkClean-Updates/releases.
+Use os downloads de https://github.com/zDaark333/DarkClean/releases.
 Não desative as proteções do Windows por orientação de páginas ou mensagens que
 aleguem ser necessárias para baixar o DarkClean.
 

@@ -6,11 +6,15 @@ o código-fonte próprio do DarkClean não é publicado aqui.
 
 ## Download
 
-**11.2.2 — prévia pública, com instalação e atualização manuais.**
+**1.0.0 — primeira versão da numeração pública, com instalação e atualização manuais.**
 
-- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean-Updates/releases/download/v11.2.2/DarkClean-Setup-v11.2.2.exe)
-- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean-Updates/releases/tag/v11.2.2)
+- [Baixar o instalador para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.0.0/DarkClean-Setup-v1.0.0.exe)
+- [Notas da versão e arquivos de verificação](https://github.com/zDaark333/DarkClean/releases/tag/v1.0.0)
 - [Histórico das versões](CHANGELOG.md)
+
+A sequência pública começa em **1.0.0**. Correções poderão avançar para 1.0.1,
+1.0.2 e seguintes; novos conjuntos de recursos poderão avançar para 1.1.0.
+Esta distribuição continua identificada como prévia pública.
 
 ## Instalação
 
@@ -53,7 +57,7 @@ Consulte também o [resumo dos avisos de terceiros](AVISOS-DE-TERCEIROS.txt).
 
 ## Problemas e sugestões
 
-Abra uma [Issue](https://github.com/zDaark333/DarkClean-Updates/issues) com a versão,
+Abra uma [Issue](https://github.com/zDaark333/DarkClean/issues) com a versão,
 o Windows utilizado e os passos para reproduzir o problema. Remova dados pessoais
 de capturas e relatórios. Para informações sobre confiança dos downloads, consulte
 [SECURITY.md](SECURITY.md).
