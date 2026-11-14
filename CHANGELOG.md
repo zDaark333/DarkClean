@@ -1,21 +1,19 @@
 # Alterações do DarkClean
 
-## 1.1.1
+## 1.1.2
 
-- Inclui o NVCleanstall 1.19.0 original, de TechPowerUp, com integridade e créditos.
-- Permite abri-lo diretamente, sem selecionar uma cópia pessoal.
-- Mantém a execução explícita em janela própria, sem instalar drivers automaticamente.
-- Uniformiza as superfícies e controles das páginas de ferramentas no tema roxo.
-- Simplifica o cabeçalho e ajusta a busca e as ações em janelas menores.
-- Mantém a logo DC, o DDU, o Full NVIDIA, as mitigações e a lixeira corrigida.
-- Preserva login online, sessão lembrada, bloqueio remoto e rolagem.
-- Atualiza a identificação do cliente para acompanhar a versão do aplicativo.
-- Disponibiliza atualização verificada para quem usa a 1.1.0.
+- Reformula a página Limpeza com categorias, revisão fixa e indicação do espaço em disco.
+- Detecta as unidades em cada computador. O seletor fica recolhido e abre a lista ao clicar.
+- Mostra uso real de RAM em uma roda ciano e acrescenta detalhes ciano ao tema roxo escuro.
+- Aplica o novo emblema do escudo no app, login, executável e atalhos.
+- Completa traduções em português, inglês e espanhol, inclusive mensagens dinâmicas.
+- Confere os textos novos antes de compilar para impedir entregas com traduções ausentes.
+- Mantém confirmação de limpeza e restringe as categorias à unidade selecionada.
+- Preserva NVIDIA, NVCleanstall, DDU, mitigações, contas online, sessão lembrada e rolagem.
 
-## Recursos da 1.1.0 mantidos nesta entrega
+Quem usa a 1.1.1 pode receber esta atualização pelo aplicativo. O download e a
+instalação exigem confirmação; o atualizador confere assinatura, tamanho e hash.
+Somente a publicação atual permanece disponível para download público.
+O código-fonte próprio continua fechado. Licenças e créditos acompanham o pacote.
 
-Tema roxo e logo DC; entrada com usuário, senha e recuperação; contas criadas
-pelo proprietário com bloqueio remoto; sessão protegida pelo Windows sem guardar
-senha; lixeira corrigida; DDU portátil; Full NVIDIA, backups e mitigações.
-
-Apenas a publicação atual fica disponível para download público.
+NVCleanstall 1.19.0, DDU 18.1.6.1 e os recursos anteriores permanecem disponíveis.

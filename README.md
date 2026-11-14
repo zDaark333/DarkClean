@@ -6,10 +6,10 @@ o código-fonte próprio do DarkClean permanece fechado.
 
 ## Download atual
 
-**1.1.1 — NVCleanstall incluído, visual roxo mais consistente e cabeçalho ajustado.**
+**1.1.2 — Limpeza redesenhada, discos detectados, RAM ciano, novo emblema e idiomas revisados.**
 
-- [Baixar para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.1/DarkClean-Setup-v1.1.1.exe)
-- [Publicação atual e verificação dos arquivos](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.1)
+- [Baixar para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.2/DarkClean-Setup-v1.1.2.exe)
+- [Publicação atual e verificação dos arquivos](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.2)
 - [Alterações](CHANGELOG.md)
 
 Somente a publicação atual fica disponível para download público. As fontes próprias
@@ -59,7 +59,10 @@ continuam disponíveis.
 - Informações de hardware, sensores e diagnóstico.
 - Ajustes de Windows, energia, rede e jogos.
 - Mitigações de CPU acessíveis na área de Otimização.
-- Tema roxo, logo DC, cartões e controles com cores mais consistentes.
+- Tema roxo escuro com detalhes ciano, novo escudo e roda de RAM com leitura real.
+- Discos detectados no computador, selecionáveis em uma lista que abre ao clicar.
+- Limpeza por unidade, categorias revisadas e ações de revisão sempre acessíveis.
+- Português, inglês e espanhol com verificação de traduções na compilação.
 - Cabeçalho mais legível em notebooks e posição de rolagem preservada.
 - Contas online do proprietário, sessão lembrada e bloqueio remoto.
 
@@ -68,7 +71,7 @@ a restauração de cada ajuste. Não há promessa de ganho universal de desempen
 
 ## Atualizações
 
-Quem usa a 1.1.0 pode receber a 1.1.1 pelo aplicativo. Mantenha
+Quem usa a 1.1.1 pode receber a 1.1.2 pelo aplicativo. Mantenha
 **Verificar atualizações automaticamente** marcado em Configurações, ou use
 **Verificar atualizações**. O DarkClean precisa estar aberto e conectado.
 O download e a instalação exigem confirmação. O atualizador confere metadados

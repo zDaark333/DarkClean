@@ -2,17 +2,17 @@
 
 ## Distribuição
 
-Versão atual: 1.1.1. O repositório contém apenas documentação e instaladores.
+Versão atual: 1.1.2. O repositório contém apenas documentação e instaladores.
 Fontes próprias do aplicativo e do servidor, backups, senhas, sessões e chaves
 privadas permanecem fora dos arquivos enviados.
 
 Cada nova entrega exige autorização explícita do mantenedor. A autorização desta
-1.1.1 não vale para publicações futuras. Alterações posteriores devem continuar
+1.1.2 não vale para publicações futuras. Alterações posteriores devem continuar
 locais e manter sua numeração até a autorização de fechamento.
 
 ## Seis arquivos aprovados
 
-- DarkClean-Setup-v1.1.1.exe
+- DarkClean-Setup-v1.1.2.exe
 - SHA256SUMS.txt
 - LEIA-ME.txt
 - AVISOS-DE-TERCEIROS.txt
