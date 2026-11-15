@@ -35,16 +35,3 @@ https://github.com/pyside/pyside-setup/tree/v6.12.0
 Fontes dos componentes MPL e demais componentes: links e commits em AVISOS-TERCEIROS/hardware/README.md e nos índices correspondentes. As fontes próprias do DarkClean não estão incluídas.
 
 Os direitos de modificar as bibliotecas de terceiros e de realizar engenharia reversa para depurar essas modificações são preservados nos termos das licenças aplicáveis.
-
-
-Snappy Driver Installer Origin 2.0.7 r890 — BadPointer e Glenn Delahoy.
-Motor original SDIO-XP_x64_R890.exe sem modificações, executado como programa separado.
-GPL versão 3 ou posterior; licença em COPYING.txt.
-https://www.glenn.delahoy.com/snappy-driver-installer-origin/
-Fontes correspondentes: https://sourceforge.net/p/snappy-driver-installer-origin/code/890/tree/trunk/
-Distribuição original: https://www.glenn.delahoy.com/downloads/sdio/SDIO_2.0.7.890.zip
-Catálogo SDIO recebido em 14/11/2026; comparação local, sem Windows Update ou torrent.
-A integração usa somente comandos de análise, com enableinstall off.
-Os pacotes de drivers não acompanham esta revisão. Direitos dos fornecedores preservados.
-
-7-Zip 26.06 e libtorrent 2.1.1 usados para preparar pacotes oficiais SDIO. Consulte as licenças 7zip, libtorrent, Boost e OpenSSL na pasta AVISOS-TERCEIROS. Pacotes de drivers são baixados sob demanda e permanecem sujeitos às licenças dos seus fabricantes.

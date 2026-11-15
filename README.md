@@ -6,10 +6,10 @@ o código-fonte próprio do DarkClean permanece fechado.
 
 ## Download atual
 
-**1.1.3 — Atualização de drivers SDIO, lista de pendências corrigida e manutenção de SSD/HD.**
+**1.1.2 — Limpeza redesenhada, discos detectados, RAM ciano, novo emblema e idiomas revisados.**
 
-- [Baixar para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.3/DarkClean-Setup-v1.1.3.exe)
-- [Publicação atual e verificação dos arquivos](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.3)
+- [Baixar para Windows de 64 bits](https://github.com/zDaark333/DarkClean/releases/download/v1.1.2/DarkClean-Setup-v1.1.2.exe)
+- [Publicação atual e verificação dos arquivos](https://github.com/zDaark333/DarkClean/releases/tag/v1.1.2)
 - [Alterações](CHANGELOG.md)
 
 Somente a publicação atual fica disponível para download público. As fontes próprias
@@ -53,24 +53,6 @@ DarkClean não restaura drivers removidos.
 O Full NVIDIA por jogo, seus backups de restauração e o NVIDIA Profile Inspector
 continuam disponíveis.
 
-## Drivers e manutenção de unidades
-
-A página Drivers analisa o catálogo SDIO, compara as opções e atualiza somente
-os dispositivos selecionados após revisão e confirmação. A janela acompanha as
-etapas e mostra o resultado de cada dispositivo. Os drivers de terceiros têm
-backup antes da troca; os drivers do Windows permanecem no armazenamento do sistema.
-Downloads de pacotes SDIO usam BitTorrent. A conexão pode cair durante uma
-atualização de rede. Se necessário, o aplicativo informa o pedido de reinício.
-
-Drivers já atualizados saem da lista. Ao detectar mudança na versão instalada,
-o DarkClean refaz a análise local do SDIO. Falhas e instalações que precisam de
-atenção permanecem identificadas; não há lista permanente de dispositivos ignorados.
-
-A Limpeza oferece análise e otimização conforme o tipo da unidade, além de
-verificação online do sistema de arquivos. Cada ação depende da unidade escolhida
-e da confirmação do usuário. Jogos permite copiar e abrir a pasta de um aplicativo
-selecionado em execução.
-
 ## Recursos preservados
 
 - Limpeza com categorias e confirmação; consulta da lixeira corrigida.
@@ -89,7 +71,7 @@ a restauração de cada ajuste. Não há promessa de ganho universal de desempen
 
 ## Atualizações
 
-Quem usa a 1.1.2 pode receber a 1.1.3 pelo aplicativo. Mantenha
+Quem usa a 1.1.1 pode receber a 1.1.2 pelo aplicativo. Mantenha
 **Verificar atualizações automaticamente** marcado em Configurações, ou use
 **Verificar atualizações**. O DarkClean precisa estar aberto e conectado.
 O download e a instalação exigem confirmação. O atualizador confere metadados

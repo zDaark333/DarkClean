@@ -1,24 +1,5 @@
 # Alterações do DarkClean
 
-## 1.1.3
-
-- Retira da lista os drivers já atualizados. Confere a versão real e refaz a análise SDIO quando a instalação muda, inclusive ao abrir uma análise antiga.
-- Mantém atualizações futuras disponíveis, falhas visíveis e instalações que exigem reinício ou confirmação identificadas.
-- Integra a análise, comparação e atualização de drivers pelo catálogo SDIO, sem Windows Update. O usuário revisa e confirma antes da instalação.
-- Mostra download, preparação, instalação e conclusão em etapas, com resultado por dispositivo e acesso aos backups.
-- Corrige o pacote não encontrado após download e reaproveita tentativas interrompidas com nova verificação de integridade.
-- Acrescenta manutenção de SSD e HD na Limpeza, com análise e otimização conforme o tipo de unidade e verificação online do sistema de arquivos.
-- Permite abrir e copiar a pasta do aplicativo selecionado em execução na página Jogos.
-- Preserva NVIDIA, NVCleanstall, DDU, tema roxo/ciano, discos detectados, RAM, idiomas, rolagem e sessão lembrada.
-
-Quem usa a 1.1.2 pode receber o aviso desta atualização pelo aplicativo, com a
-verificação automática ativada e conexão à internet. Download e instalação exigem
-confirmação. O atualizador confere assinatura dos metadados, tamanho e SHA-256.
-Não há instalação de drivers nem reinício automático ao instalar o DarkClean.
-Somente a publicação atual permanece disponível para download público.
-O código-fonte próprio continua fechado; licenças e créditos acompanham o pacote.
-
-
 ## 1.1.2
 
 - Reformula a página Limpeza com categorias, revisão fixa e indicação do espaço em disco.
